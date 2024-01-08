@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        NODEJS_VERSION = '14.17.3'  // Update with the desired Node.js version
+        NODEJS_VERSION = ''  // Update with the desired Node.js version
         NPM_REGISTRY = 'https://registry.npmjs.org/'
         DOCKER_REGISTRY = 'your.docker.registry'
         DOCKER_IMAGE_NAME = 'your-docker-image-name'
