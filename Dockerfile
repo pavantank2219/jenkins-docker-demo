@@ -1,16 +1,3 @@
-# FROM node:18-alpine
-
-# WORKDIR /app
-
-# COPY package.json package-lock.json ./
-# RUN npm install
-
-# EXPOSE 8081
-
-# CMD npm run dev
-# Install dependencies only when needed
-
-
 FROM node:lts-alpine AS deps
 
 WORKDIR /app
