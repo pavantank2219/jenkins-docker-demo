@@ -10,7 +10,8 @@ const HomePage = () => {
       alignItems: 'center'
     }}>
       <h1>Next.js CI/CD demo with Docker and Jenkins</h1>
-      <h1>v1.0</h1>
+      <br/>
+      <h1>v1.0.1</h1>
     </div>
   )
 }
