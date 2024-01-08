@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        NODEJS_VERSION = ''  // Update with the desired Node.js version
+        NODEJS_VERSION = ''  // leaving it blank means jenkins will use latest version of node, specify the version if certain version is needed
         NPM_REGISTRY = 'https://registry.npmjs.org/'
         DOCKER_REGISTRY = 'your.docker.registry'
         DOCKER_IMAGE_NAME = 'your-docker-image-name'
